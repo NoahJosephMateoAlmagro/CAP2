@@ -386,8 +386,8 @@ int main(int argc, char *argv[])
 {
 	MPI_Init(&argc, &argv);
 
-	int w = 1200; // Ancho de la imagen
-	int h = 1200; // Alto de la imagen
+	int w = 160; // Ancho de la imagen
+	int h = 160; // Alto de la imagen
 	int ns = 10;  // Número de muestras por pixel
 
 	int size = sizeof(unsigned char) * w * h * 3;

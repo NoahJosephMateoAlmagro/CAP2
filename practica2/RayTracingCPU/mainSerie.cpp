@@ -214,8 +214,8 @@ void rayTracingCPU(unsigned char* img, int w, int h, int ns = 10, int px = 0, in
 
 
 int main() {
-	int w = 1200;
-	int h = 1200;
+	int w = 80;
+	int h = 80;
 	int ns = 10;
 
 	int patch_x_size = w;
