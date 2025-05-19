@@ -1,0 +1,20 @@
+Escena generada.Tiempo de ejecución con repartición en serie: 1.135023 segundos
+Imagen creada.
+Tiempo de ejecución con repartición en columnas con OMP: 1.091590 segundos
+Imagen creada.
+Tiempo de ejecución con repartición en filas con OMP: 1.103422 segundos
+Imagen creada.
+Tiempo de ejecución con repartición en bloques con OMP: 1.076397 segundos
+Imagen creada.
+Tiempo de ejecución con repartición en columnas con MPI: 0.566749 segundos
+Imagen creada.
+Tiempo de ejecución con repartición en filas con MPI: 0.627435 segundos
+Imagen creada.
+Tiempo de ejecución con repartición en bloques con MPI: 0.639768 segundos
+Imagen creada.
+Tiempo de ejecución con repartición en columnas con MPI y OMP: 0.547556 segundos
+Imagen creada.
+Tiempo de ejecución con repartición en filas con MPI y OMP: 0.610463 segundos
+Imagen creada.
+Tiempo de ejecución con repartición en bloques con MPI y OMP: 0.605873 segundos
+Imagen creada.
