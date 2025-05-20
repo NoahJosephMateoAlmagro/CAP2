@@ -1,7 +1,7 @@
 #!/bin/bash
 
-RESOLUCIONES=( "1200")
-NS_VALUES=("10")
+RESOLUCIONES=("80" "640" "1200")
+NS_VALUES=("10" "50")
 MPI_PROCS=("2" "4" "10")
 OMP_THREADS=("2" "8" "16")
 
@@ -12,14 +12,14 @@ for res in "${RESOLUCIONES[@]}"; do
 
         echo "Ejecutando configuración: ${res}x${res}, ${mpi} procesos MPI, ${omp_threads} hilos OMP, ${ns} muestras"
 
-        CONFIG_DIR="resultadosMPIMP/${res}x${res}_${mpi}p_${omp_threads}h_${ns}ns"
+        CONFIG_DIR="resultados/${res}x${res}_${mpi}p_${omp_threads}h_${ns}ns"
         mkdir -p "$CONFIG_DIR"
 
         RESULT_FILE="${CONFIG_DIR}/tiempos.txt"
         echo "Tiempos de ejecución para ${res}x${res}, ${mpi} procesos MPI, ${omp_threads} hilos OMP, ${ns} ns" > "$RESULT_FILE"
         echo "Iteración | Serie | OMP Columnas | OMP Filas | OMP Bloques | MPI Columnas | MPI Filas | MPI Bloques | MPI+OMP Columnas | MPI+OMP Filas | MPI+OMP Bloques" >> "$RESULT_FILE"
 
-        for iter in {1..5}; do
+        for iter in {1..10}; do
           echo "  → Iteración $iter"
           export OMP_NUM_THREADS=$omp_threads
 
