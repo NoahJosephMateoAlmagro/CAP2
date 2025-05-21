@@ -1,7 +1,0 @@
-Tiempos de ejecución para 1200x1200, 1 procesos MPI, 2 hilos OMP, 10 ns
-Iteración | Serie | OMP Columnas | OMP Filas | OMP Bloques | MPI Columnas | MPI Filas | MPI Bloques | MPI+OMP Columnas | MPI+OMP Filas | MPI+OMP Bloques
-1 |  | 98.886114 | 52.129336 | 49.883690 |  |  |  |  |  | 
-2 |  | 50.957345 | 50.449475 | 50.359303 |  |  |  |  |  | 
-3 |  | 50.587865 | 50.919723 | 50.955461 |  |  |  |  |  | 
-4 |  | 50.508643 | 50.715261 | 50.327159 |  |  |  |  |  | 
-5 |  | 50.501931 | 50.702832 | 50.328493 |  |  |  |  |  | 

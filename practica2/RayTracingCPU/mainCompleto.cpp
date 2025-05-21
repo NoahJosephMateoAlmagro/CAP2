@@ -53,12 +53,11 @@ Scene loadObjectsFromFile(const std::string &filename)
 			}
 
 			if (tokens.empty())
-				continue; // Línea vacía
+				continue; 
 
-			// Esperamos al menos la palabra clave "Object"
+			
 			if (tokens[0] == "Object" && tokens.size() >= 12)
-			{ // Mínimo para Sphere y un material con 1 float
-				// Parsear la esfera
+			{ 
 				if (tokens[1] == "Sphere" && tokens[2] == "(" && tokens[7] == ")")
 				{
 					try
@@ -68,7 +67,6 @@ Scene loadObjectsFromFile(const std::string &filename)
 						float sz = std::stof(tokens[5].substr(0, tokens[5].find(',')));
 						float sr = std::stof(tokens[6]);
 
-						// Parsear el material del último objeto creado
 
 						if (tokens[8] == "Crystalline" && tokens[9] == "(" && tokens[11].back() == ')')
 						{
@@ -1212,9 +1210,9 @@ int main(int argc, char *argv[])
 	}
 	*/
 	/////////////////////////////////////////////////////////////////////////////////////
+	// Nota para el profesor: Al descomentar esto cada vez que se ejecute el programa se genera la escena de nuevo en el hilo 0.
 
-
-	if(rank == 0) { //Esto no funciona escribiendo MPI_Init más abajo
+	if(rank == 0) { 
 	// Iniciar temporizador
 	start = std::chrono::high_resolution_clock::now();
 

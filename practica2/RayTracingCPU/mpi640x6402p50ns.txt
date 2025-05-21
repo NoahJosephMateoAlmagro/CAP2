@@ -1,4 +1,0 @@
-Escena generada.Tiempo de ejecución con repartición en serie: 81.143601 segundos
-Imagen creada.
-Tiempo de ejecución con repartición en columnas con OMP: 78.387898 segundos
-Imagen creada.

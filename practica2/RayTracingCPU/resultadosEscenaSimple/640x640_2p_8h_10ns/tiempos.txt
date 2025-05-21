@@ -1,7 +1,0 @@
-Tiempos de ejecución para 640x640, 2 procesos MPI, 8 hilos OMP, 10 ns
-Iteración | Serie | OMP Columnas | OMP Filas | OMP Bloques | MPI Columnas | MPI Filas | MPI Bloques | MPI+OMP Columnas | MPI+OMP Filas | MPI+OMP Bloques
-1 |  |  |  |  |  |  |  | 1.997096 | 1.957783 | 1.962596
-2 |  |  |  |  |  |  |  | 2.013768 | 1.957908 | 1.962827
-3 |  |  |  |  |  |  |  | 2.020673 | 1.961533 | 1.962827
-4 |  |  |  |  |  |  |  | 2.014850 | 1.965059 | 1.973872
-5 |  |  |  |  |  |  |  | 2.002105 | 1.968217 | 1.964993
